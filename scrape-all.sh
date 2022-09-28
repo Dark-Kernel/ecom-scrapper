@@ -1,8 +1,8 @@
 #!/bin/bash
 
-wget 'https://www.amazon.in/s?k=mi' -O main.html
-wget 'https://www.flipkart.com/search?q=iphone' -O mflip.html
-wget 'https://www.reliancedigital.in/search?q=samsung' -O rmain.html
+wget -q 'https://www.amazon.in/s?k=mi' -O main.html 2>&1
+wget -q 'https://www.flipkart.com/search?q=iphone' -O mflip.html 2>&1
+wget -q 'https://www.reliancedigital.in/search?q=samsung' -O rmain.html 2>&1
 
 
 
