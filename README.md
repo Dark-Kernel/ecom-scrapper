@@ -20,6 +20,9 @@ After scraping you can convert files in json format with one more script which c
  
     Now, you get .json files which you can use in your website.
 
+3. `jq . file.json`
+
+    To get formatted json output. 
 
 
 Thanks to pup tool by [ericchiang](https://github.com/ericchiang/pup)
